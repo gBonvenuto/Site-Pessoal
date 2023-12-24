@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giancarlo.bonvenuto.com.br/posts/first-post/</loc>
-    <lastmod>2023-12-24T17:47:52-03:00</lastmod>
-  </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/</loc>
+    <lastmod>2023-12-24T17:51:03-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/projetos/baja/gps/</loc>
+    <lastmod>2023-12-24T17:51:03-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/projetos/</loc>
+    <lastmod>2023-12-24T17:51:03-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/posts/first-post/</loc>
     <lastmod>2023-12-24T17:47:52-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/posts/</loc>
