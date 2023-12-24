@@ -1,0 +1,4 @@
+baseURL = 'https://giancarlo.bonvenuto.com.br'
+languageCode = 'pt-br'
+title = 'Giancarlo Bonvenuto'
+theme = "dark-theme-editor"
