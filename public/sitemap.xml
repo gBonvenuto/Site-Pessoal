@@ -2,9 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giancarlo.bonvenuto.com.br/categories/</loc>
+    <loc>https://giancarlo.bonvenuto.com.br/blog/</loc>
+    <lastmod>2023-12-24T18:26:51-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/</loc>
+    <lastmod>2023-12-24T18:26:51-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/blog/primeiro-post/</loc>
+    <lastmod>2023-12-24T18:26:51-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/linux/</loc>
+    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/linux/meu-setup/</loc>
+    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/baja/</loc>
+    <lastmod>2023-12-24T18:26:04-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/baja/o-que-%C3%A9/</loc>
+    <lastmod>2023-12-24T18:26:04-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/categories/</loc>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/tags/</loc>
   </url>
