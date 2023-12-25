@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Giancarlo Bonvenuto</title>
-    <link>https://giancarlo.bonvenuto.com.br/posts/</link>
-    <description>Recent content in Posts on Giancarlo Bonvenuto</description>
+    <title>youtube on Giancarlo Bonvenuto</title>
+    <link>https://giancarlo.bonvenuto.com.br/tags/youtube/</link>
+    <description>Recent content in youtube on Giancarlo Bonvenuto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 25 Dec 2023 00:33:06 -0300</lastBuildDate>
-    <atom:link href="https://giancarlo.bonvenuto.com.br/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://giancarlo.bonvenuto.com.br/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teste</title>
       <link>https://giancarlo.bonvenuto.com.br/posts/teste/</link>
