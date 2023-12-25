@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://giancarlo.bonvenuto.com.br/blog/</loc>
-    <lastmod>2023-12-24T18:26:51-03:00</lastmod>
-  </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/</loc>
+    <lastmod>2023-12-24T23:57:38-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/posts/</loc>
+    <lastmod>2023-12-24T23:57:38-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/posts/teste/</loc>
+    <lastmod>2023-12-24T23:57:38-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/blog/</loc>
     <lastmod>2023-12-24T18:26:51-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/blog/primeiro-post/</loc>
