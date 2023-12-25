@@ -10,9 +10,9 @@
     <atom:link href="https://giancarlo.bonvenuto.com.br/en/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meu Setup</title>
-      <link>https://giancarlo.bonvenuto.com.br/en/linux/meu%5C-setup/</link>
+      <link>https://giancarlo.bonvenuto.com.br/en/linux/meu-setup/</link>
       <pubDate>Sun, 24 Dec 2023 18:26:32 -0300</pubDate>
-      <guid>https://giancarlo.bonvenuto.com.br/en/linux/meu%5C-setup/</guid>
+      <guid>https://giancarlo.bonvenuto.com.br/en/linux/meu-setup/</guid>
       <description>Currently I use Debian 12 testing because I refuse to install Arch.
 Also, my Window Manager is awesomwm, and currently I&amp;rsquo;m using Nord as my gtk theme.</description>
     </item>

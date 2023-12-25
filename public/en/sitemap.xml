@@ -28,8 +28,18 @@
                 href="https://giancarlo.bonvenuto.com.br/en/linux/"
                 />
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/en/linux/meu%5C-setup/</loc>
+    <loc>https://giancarlo.bonvenuto.com.br/en/linux/meu-setup/</loc>
     <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://giancarlo.bonvenuto.com.br/linux/meu-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://giancarlo.bonvenuto.com.br/en/linux/meu-setup/"
+                />
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/en/author/</loc>
     <xhtml:link
