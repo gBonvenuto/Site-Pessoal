@@ -6,4 +6,5 @@ draft = false
 
 Atualmente eu utilizo Debian 12 testing.
 
-Além disso, meu Window Manager é o awesomewm.
+Além disso, meu Window Manager é o awesomewm, e atualmente estou utilizando Nord
+como o meu tema gtk.
