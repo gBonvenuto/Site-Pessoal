@@ -3,3 +3,4 @@ title = "Giancarlo Bonvenuto"
 languageCode = "pt-br"
 DefaultContentLanguage = "pt-br" # Change this to change the site's language
 theme = "dark-theme-editor"
+pluralizelisttitles = false
