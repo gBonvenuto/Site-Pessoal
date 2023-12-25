@@ -1,5 +1,6 @@
 baseURL = "https://giancarlo.bonvenuto.com.br"
 title = "Giancarlo Bonvenuto"
+DefaultContentLanguage = "pt-br" # Change this to change the site's language
 theme = "dark-theme-editor"
 pluralizelisttitles = false
 
