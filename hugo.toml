@@ -38,7 +38,7 @@ preserveTaxonomyNames = true
     loadspeedfactor = 10
 
     # Enables or disables the second flyby cursor. Default is false.
-    loadonepass = enable
+    loadonepass = true
 
 [params.copyright]
     name = "JM Fergeau"
