@@ -2,6 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://giancarlo.bonvenuto.com.br/en/</loc>
+    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://giancarlo.bonvenuto.com.br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://giancarlo.bonvenuto.com.br/en/"
+                />
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/en/linux/</loc>
+    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://giancarlo.bonvenuto.com.br/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://giancarlo.bonvenuto.com.br/en/linux/"
+                />
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/en/linux/meu%5C-setup/</loc>
+    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
+  </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/en/author/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,18 +53,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://giancarlo.bonvenuto.com.br/en/categories/"
-                />
-  </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://giancarlo.bonvenuto.com.br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://giancarlo.bonvenuto.com.br/en/"
                 />
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/en/tags/</loc>
