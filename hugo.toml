@@ -3,7 +3,7 @@ title = "Giancarlo Bonvenuto"
 languageCode = "pt-br"
 DefaultContentLanguage = "pt-br" # Change this to change the site's language
 theme = "hugo.386"
-preserveTaxonomyNames = true
+preserveTaxonomyNames = false
 
 [params]
     # The name to display as main title in the home page
