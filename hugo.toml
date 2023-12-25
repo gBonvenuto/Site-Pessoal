@@ -1,6 +1,249 @@
 baseURL = "https://giancarlo.bonvenuto.com.br"
 title = "Giancarlo Bonvenuto"
-languageCode = "pt-br"
-DefaultContentLanguage = "pt-br" # Change this to change the site's language
 theme = "dark-theme-editor"
 pluralizelisttitles = false
+
+# Minimum support hugo
+[module]
+    [module.hugoVersion]
+        min = "0.112.0"
+
+# Support Taxonomies
+[taxonomies]
+    autor = "author"
+    tag = "tags"
+    category = "categories"
+
+# Multilingual Setting
+[languages]
+
+    [languages.en]
+
+        # hugo multilingual setting
+        languageCode = 'en-US'
+        languageDirection = 'ltr'
+        languageName = 'English'
+        weight = 1
+
+        # Configs that were originally in the "params" section but need to be translated.
+        [languages.en.params]
+
+            [languages.en.params.header]
+                # Website title for header banner.
+                title = "Giancarlo Bonvenuto"
+
+                # Subtitle for this site, used in homepage only
+                subtitle = 'My personal website'
+
+            [languages.en.params.footer]
+                # CopyRight string shown in the footer. Keep it an empty string or remove this item will hide it from the page.
+                copyrightStr = ""
+
+            [languages.en.params.globalFrontmatter]
+                # The author of this site. This will be shown in
+                # 1. the footer of all page
+                # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
+                # Keep it an empty string or remove this item will hide it from the page
+                author = "Giancarlo Bonvenuto"
+
+                # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
+                description = "My personal website"
+
+                # Website keywords. Theme will generate a <meta> tag for this item.
+                keywords = "hugo,site,new"
+
+            [languages.en.params.homePage]
+
+                # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.
+                siteLongDescription = "In this website I'll display some personal information aswell as professional information. Bu primarily it'll have: projects I've worked on, my resumè and a blog"
+
+                # If you don't like the title of "siteLongDescription" be "Start" (default),
+                # you may change the value of this item to "Description" or something you like.
+                siteLongDescriptionTitle = "Description"
+
+    [languages.pt-br]
+
+        # hugo multilingual setting
+        languageCode = 'pt-br'
+        languageDirection = 'ltr'
+        languageName = 'Português'
+        weight = 1
+
+        # Configs that were originally in the "params" section but need to be translated.
+        [languages.pt-br.params]
+
+            [languages.pt-br.params.header]
+                # Website title for header banner.
+                title = "Giancarlo Bonvenuto"
+
+                # Subtitle for this site, used in homepage only
+                subtitle = 'Meu site pessoal'
+
+            [languages.pt-br.params.footer]
+                # CopyRight string shown in the footer. Keep it an empty string or remove this item will hide it from the page.
+                copyrightStr = ""
+
+            [languages.pt-br.params.globalFrontmatter]
+                # The author of this site. This will be shown in
+                # 1. the footer of all page
+                # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
+                # Keep it an empty string or remove this item will hide it from the page
+                author = "Giancarlo Bonvenuto"
+
+                # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
+                description = "Meu site pessoal"
+
+                # Website keywords. Theme will generate a <meta> tag for this item.
+                keywords = "hugo,site,new"
+
+            [languages.pt-br.params.homePage]
+
+                # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.
+                siteLongDescription = "Neste site eu vou colocar algumas infomações tanto pessoais quanto profissionais. Mas principalemente terá: Projetos nos quais já trabalhei, meu currículo e um blog"
+
+                # If you don't like the title of "siteLongDescription" be "Start" (default),
+                # you may change the value of this item to "Description" or something you like.
+                siteLongDescriptionTitle = "Start"
+
+# Theme parameters
+[params]
+
+    # Parameters applied in HTML <head>
+    [params.site]
+        # Website ICON
+        faviconUrl = ""
+
+        # Do you have any CSS in local? List them in an array.
+        # They should be placed inside "/assets" dir.
+        # And don't named the file as "index.css" and "style.css".
+        # These two files are used by the theme.
+        localCss = []
+
+        # Do you need to add any external CSS? List them in an array.
+        externalCss = []
+
+        # Do you have any script in local? List them in an array.
+        # They should be placed inside "/assets" dir.
+        # And don't named the file as "index.js"
+        # Theis file is used by the theme.
+        localJs = []
+
+        # Do you have any external Script need to add on? List them in an array.
+        externalJs = []
+
+        # The code you could get from Google Search Console.
+        # Please patse the value of content xxx in the following items
+        # <meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        googleVerification = ""
+
+        # The code you could get from Microsoft Bing Webmater
+        # Please patse the value of content xxx in the following items
+        # <meta name="msvalidate.01" content="xxxxxxxxxxxxxxxxxxxx" />
+        bingVerifivation = ""
+
+    # Customized info shown in header of the page
+    [params.header]
+        # Config about your's site logo, remove this item to hide the logo
+        [params.header.logo]
+            # Where is your site's URL
+            imgUrl = ""
+
+            # If the logo is clickable, where should it be linked?
+            # In default, it will linked to the homepage of the site.
+            logoLink = ""
+
+    # Customized info shown in footer of the page
+    [params.footer]
+        # Should show the counter in the footer or not
+        # In the home page, it will show the numbers of all pages
+        # In the sections pages, it will show the numbers of pages within the section
+        # In the taxonomy pages, it will show the numbers of pages belong to the taxonomy.
+        # In the regular content pages, it will show the word count.
+        counter = true
+
+        # Should show the language of the page or not
+        language = true
+
+        # Should show the hugo version or not
+        hugoVersion = true
+
+        # Should show the theme info or not
+        theme = true
+
+        # Should show the edited time of the page or not
+        modifiedTime = true
+
+        # The format of the `modifiedTime`.
+        # Refer to page https://gohugo.io/functions/format/ for more detail.
+        # Below is the default format, please do not remove it, unless you set `false` in `modifiedTime` field.
+        dateFormat = "Jan 02 2006 15:04:05"
+
+        # Should show the current git HEAD hash or not
+        # To make this show up correctly, please follow the prerequisites in page
+        # https://gohugo.io/variables/git/
+        gitHash = true
+
+        # Social link in the footer, listed items are supported, delete unwanted items to hide it.
+        [params.footer.socialLink]
+            github = "https://github.com/gBonvenuto"
+            facebook = ""
+            twitter = ""
+            email = "giancarlo.bonvenuto@gmail.com"
+            linkedin = ""
+            instagram = ""
+            telegram = ""
+            medium = ""
+            vimeo = ""
+            youtube = ""
+
+    # Parameters applied in the homepage only
+    [params.homePage]
+        # Param to decide whether to show the most recent blog posts or not. (Default: true)
+        showRecentPostsBlock = true
+
+        # Param to decide how many recent posts to show in the home page. (Default: 5)
+        numOfRecentPosts = 5
+
+        # Parameter to decide whether to show the URL behind the title.
+        # It will be more like an editor if it is shown. However, in general, it can be messy if it is displayed.
+        # (Default: true)
+        recentPostShowUrl = true
+
+
+    # Paramater applied in the single page
+    # These values could be overwritten by the frontmatter in the single page.
+    [params.page]
+        # Should include Table of Content in front of the page or not.
+        includeToc = true
+
+        # Should show the author of the page or not.
+        # The author name will be shown in the single page if and only if
+        #   1. this items been set as true and
+        #   2. "aurthor" filed been provided in the
+        #       A. single page frontmatter or
+        #       B. "author" filed in above "globalFrontmatter" block
+        showAuthor = true
+
+        # Should show the date of the page or not
+        showDate = true
+
+        # The format of the date.
+        # Refer to page https://gohugo.io/functions/format/ for more detail.
+        # Below is the default format, please do not remove it, unless you set `false` in `showDate` field.
+        dateFormat = "2006.01.02"
+
+        # Should show the estimate reading time in front of the page or not.
+        showTimeToRead = true
+
+        # Should show the breadcrumb in front of the page or not.
+        showBreadcrumb = true
+
+        # Should show the "copy" button in the codeblock or not.
+        codeBlockCopible = true
+
+        # Should include LaTeX support on a single page or not?
+        # This parameter will be overwritten by the page front matter (if it has been set).
+        # Since enabling this configuration loads some external JavaScript, 
+        #   it will slow down the page loading speed. 
+        # It's recommended to keep it turned off by default and only enable this configuration when required.
+        useMath = false
