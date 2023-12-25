@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Giancarlo Bonvenuto</title>
+    <link>https://giancarlo.bonvenuto.com.br/post/</link>
+    <description>Recent content in Posts on Giancarlo Bonvenuto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 24 Dec 2023 23:57:38 -0300</lastBuildDate>
+    <atom:link href="https://giancarlo.bonvenuto.com.br/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teste</title>
+      <link>https://giancarlo.bonvenuto.com.br/post/teste/</link>
+      <pubDate>Sun, 24 Dec 2023 23:57:38 -0300</pubDate>
+      <guid>https://giancarlo.bonvenuto.com.br/post/teste/</guid>
+      <description>sla man</description>
+    </item>
+  </channel>
+</rss>
