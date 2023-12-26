@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://giancarlo.bonvenuto.com.br/author/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/categories/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -28,17 +28,17 @@
                 href="https://giancarlo.bonvenuto.com.br/categories/"
                 />
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/categories/catgorized/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <loc>https://giancarlo.bonvenuto.com.br/categories/debian/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/tags/debian/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <loc>https://giancarlo.bonvenuto.com.br/tags/fingerprint/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/author/giancarlo-bonvenuto/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -50,17 +50,30 @@
                 href="https://giancarlo.bonvenuto.com.br/"
                 />
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/tags/linux/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <loc>https://giancarlo.bonvenuto.com.br/linux/impress%C3%A3o-digital-para-login/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/categories/page/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <loc>https://giancarlo.bonvenuto.com.br/categories/linux/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/posts/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <loc>https://giancarlo.bonvenuto.com.br/linux/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://giancarlo.bonvenuto.com.br/en/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://giancarlo.bonvenuto.com.br/linux/"
+                />
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/tags/login/</loc>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/tags/</loc>
-    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+    <lastmod>2023-12-25T21:27:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -71,6 +84,21 @@
                 hreflang="pt-br"
                 href="https://giancarlo.bonvenuto.com.br/tags/"
                 />
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/categories/catgorized/</loc>
+    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/tags/debian/</loc>
+    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/tags/linux/</loc>
+    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/categories/page/</loc>
+    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
+  </url><url>
+    <loc>https://giancarlo.bonvenuto.com.br/posts/</loc>
+    <lastmod>2023-12-25T00:33:06-03:00</lastmod>
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/posts/teste/</loc>
     <lastmod>2023-12-25T00:33:06-03:00</lastmod>
@@ -92,19 +120,6 @@
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/blog/primeiro-post/</loc>
     <lastmod>2023-12-24T18:26:51-03:00</lastmod>
-  </url><url>
-    <loc>https://giancarlo.bonvenuto.com.br/linux/</loc>
-    <lastmod>2023-12-24T18:26:32-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://giancarlo.bonvenuto.com.br/en/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://giancarlo.bonvenuto.com.br/linux/"
-                />
   </url><url>
     <loc>https://giancarlo.bonvenuto.com.br/linux/meu-setup/</loc>
     <lastmod>2023-12-24T18:26:32-03:00</lastmod>

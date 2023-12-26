@@ -6,8 +6,17 @@
     <description>Recent content on Giancarlo Bonvenuto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 25 Dec 2023 00:33:06 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 25 Dec 2023 21:27:50 -0300</lastBuildDate>
     <atom:link href="https://giancarlo.bonvenuto.com.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impressão Digital Para Login</title>
+      <link>https://giancarlo.bonvenuto.com.br/linux/impress%C3%A3o-digital-para-login/</link>
+      <pubDate>Mon, 25 Dec 2023 21:27:50 -0300</pubDate>
+      <guid>https://giancarlo.bonvenuto.com.br/linux/impress%C3%A3o-digital-para-login/</guid>
+      <description>Instalação Esse artigo não é um tutorial, mas um &amp;ldquo;diário&amp;rdquo; de como eu fiz para configurar a impressão digital no Linux.
+Primeiramente, eu segui este tutorial. Contudo, eu uso Debian testing, e infelizmente tanto fprintd quanto libpam-fprintd não estavam disponível para instalação. Assim tive que baixar diretamente do site do Debian os pacotes .deb em fprintd e libpam-fprintd.
+Registrando a digital Para registrar o indicador direito, basta executei o seguinte comando:</description>
+    </item>
     <item>
       <title>Teste</title>
       <link>https://giancarlo.bonvenuto.com.br/posts/teste/</link>

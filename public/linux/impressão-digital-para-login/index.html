@@ -13,11 +13,11 @@
 
     
         
-            <meta name="description" content="Este é um teste dos archetypes do tema que to usando no momento" />
+            <meta name="description" content="Como eu configurei a impressão digital para funcionar como Login (inclusive para comandos como sudo)" />
         
 
         
-            <meta name="keywords" content="[]" />
+            <meta name="keywords" content="[Linux, login, Debian, fingerprint]" />
         
 
         
@@ -29,7 +29,7 @@
 
     <title>
         
-            Teste |
+            Impressão Digital Para Login |
             Giancarlo Bonvenuto
         
     </title>
@@ -112,7 +112,7 @@
 
     <div class="header_middle">
         
-            Teste -
+            Impressão Digital Para Login -
             Giancarlo Bonvenuto
         
     </div>
@@ -138,7 +138,7 @@
             
                 <li
                     
-                        class="dir closed-dir"
+                        class="dir opened-dir"
                     >
                     <span class="dir-text"> Linux </span>
 
@@ -180,7 +180,7 @@
             
                 <li
                     
-                        class="dir opened-dir"
+                        class="dir closed-dir"
                     >
                     <span class="dir-text"> Posts </span>
 
@@ -334,7 +334,7 @@
 
         <div class="title">
             <h1 class="title-header">
-                Teste
+                Impressão Digital Para Login
             </h1>
 
             <div class="author-date-readtime">
@@ -368,7 +368,7 @@
                         class="readtime"
                         title="Tempo De Leitura">
                         <i class="bi bi-clock"></i>
-                        1 minuto de leitura
+                        3 minutos de leitura
                     </div>
                 
             </div>
@@ -382,21 +382,15 @@
                         title="Categorias"></i>
                     
                         <a
-                            href="/categories/catgorized/"
+                            href="/categories/linux/"
                             class="cat-btn">
-                            catgorized
+                            Linux
                         </a>
                     
                         <a
-                            href="/categories/the/"
+                            href="/categories/debian/"
                             class="cat-btn">
-                            the
-                        </a>
-                    
-                        <a
-                            href="/categories/page/"
-                            class="cat-btn">
-                            page
+                            Debian
                         </a>
                     
                 </div>
@@ -409,21 +403,15 @@
                         title="Tags"></i>
                     
                         <a
-                            href="/tags/linux/"
+                            href="/tags/login/"
                             class="tag-btn">
-                            linux
+                            Login
                         </a>
                     
                         <a
-                            href="/tags/debian/"
+                            href="/tags/fingerprint/"
                             class="tag-btn">
-                            debian
-                        </a>
-                    
-                        <a
-                            href="/tags/youtube/"
-                            class="tag-btn">
-                            youtube
+                            Fingerprint
                         </a>
                     
                 </div>
@@ -456,11 +444,11 @@
 
 
 
-<a href="https://giancarlo.bonvenuto.com.br/posts/" class="bread-btn">
+<a href="https://giancarlo.bonvenuto.com.br/linux/" class="bread-btn">
     
 
     
-        Posts
+        Linux
     
 </a>
 
@@ -471,11 +459,11 @@
 
 
 
-<a href="https://giancarlo.bonvenuto.com.br/posts/teste/" class="bread-btn">
+<a href="https://giancarlo.bonvenuto.com.br/linux/impress%C3%A3o-digital-para-login/" class="bread-btn">
     
 
     
-        Teste
+        Impressão Digital Para Login
     
 </a>
 
@@ -487,7 +475,23 @@
 
         
             
-                <nav id="TableOfContents"></nav>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#instalação">Instalação</a></li>
+    <li><a href="#registrando-a-digital">Registrando a digital</a></li>
+    <li><a href="#utilização-para-comandos-como-sudo">Utilização para comandos como sudo</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#utilizando-para-logar-no-sistema">Utilizando para logar no sistema</a>
+      <ul>
+        <li><a href="#utilizando-com-i3lock">Utilizando com <code>i3lock</code></a></li>
+        <li><a href="#para-outros-sistemas-de-login-como-o-gddm">Para outros sistemas de login como o <code>gddm</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#problemas">Problemas</a></li>
+  </ul>
+</nav>
             
 
         
@@ -495,7 +499,12 @@
 
         <div class="content">
             
-                
+                <h2 id="instalação">Instalação</h2>
+<p>Esse artigo não é um tutorial, mas um &ldquo;diário&rdquo; de como eu fiz para configurar a impressão digital no Linux.</p>
+<p>Primeiramente, eu segui <a href="https://wiki.debian.org/SecurityManagement/fingerprint%20authentication">este tutorial</a>. Contudo, eu uso Debian testing, e infelizmente tanto <code>fprintd</code> quanto <code>libpam-fprintd</code> não estavam disponível para instalação. Assim tive que baixar diretamente do site do Debian os pacotes .deb em <a href="https://packages.debian.org/bookworm/fprintd">fprintd</a> e <a href="https://packages.debian.org/unstable/libpam-fprintd">libpam-fprintd</a>.</p>
+<h2 id="registrando-a-digital">Registrando a digital</h2>
+<p>Para registrar o indicador direito, basta executei o seguinte comando:</p>
+
 
 
 
@@ -505,16 +514,179 @@
 <div class="codeblock">
     
         <div class="copy-button-box">
-            <button class="copy-button" state="copy" data="Esse%20aqui%20%c3%a9%20um%20bloco%20que%20eu%20supostamente%20deveria%20conseguir%20copiar">
+            <button class="copy-button" state="copy" data="fprintd-enroll%20$USER">
                 <i class="bi bi-copy"></i>
             </button>
         </div>
     
 
     
-        <pre><code>Esse aqui é um bloco que eu supostamente deveria conseguir copiar</code></pre>
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="color:#a6e22e">fprintd-enroll</span> $USER</span></span></code></pre></div>
     
 </div>
+<p><em>Em que <code>$USER</code> é o usuário ao qual a impressão digital pertence.</em></p>
+<p><em>Alem do mais, caso não funcione de primeira, tente executar como <code>sudo</code>.</em></p>
+<p>E fiquei colocando e tirando o dedo do sensor até que aparecesse a mensagem <code>Enroll result: enroll-completed</code></p>
+<p>Para adicionar outros dedos, como o indicador esquerdo, eu utilizei:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="fprintd-enroll%20$USER%20-f%20left-index-finger">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fish" data-lang="fish"><span style="display:flex;"><span><span style="color:#a6e22e">fprintd-enroll</span> $USER <span style="color:#a6e22e">-f</span> left-index-finger</span></span></code></pre></div>
+    
+</div>
+<p>E para ver o nome de cada dedo, eu fiz <code>fprintd-enroll $USER -f a</code>, em que &ldquo;a&rdquo; não é um dedo válido, assim ele listará todos os dedos disponíveis</p>
+<h2 id="utilização-para-comandos-como-sudo">Utilização para comandos como sudo</h2>
+<p>Em seguida habilitei a impressão digital para comandos como <code>sudo</code>:</p>
+<blockquote>
+<h1 id="fingerprint-authentication-with-sudohttpswikidebianorgsecuritymanagementfingerprint20authentication"><a href="https://wiki.debian.org/SecurityManagement/fingerprint%20authentication">Fingerprint Authentication with sudo</a></h1>
+<p>To enable fingerprint authentication with sudo, run</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="pam-auth-update">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>pam-auth-update</code></pre>
+    
+</div>
+<p>and enable the &ldquo;Fingerprint authentication&rdquo; profile by checking the corresponding checkbox and then pressing &ldquo;OK&rdquo; (see Screenshot pam-auth-update).</p>
+</blockquote>
+<h2 id="utilizando-para-logar-no-sistema">Utilizando para logar no sistema</h2>
+<p>Enfim, para habilitar o <code>fprintd</code> no meu login manager (<a href="https://github.com/fairyglade/ly">ly</a>), adicionei as seguintes linhas:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="auth%20%09%20%20%20sufficient%20%20%20pam_unix.so%20try_first_pass%20likeauth%20nullok%0aauth%09%20%20%20sufficient%20%20%20pam_fprintd.so">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>auth 	   sufficient   pam_unix.so try_first_pass likeauth nullok
+auth	   sufficient   pam_fprintd.so</code></pre>
+    
+</div>
+<p>Assim, o arquivo <code>/etc/pam.d/ly</code> ficou:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="#%25PAM-1.0%0a%0aauth%20%09%20%20%20sufficient%20%20%20pam_unix.so%20try_first_pass%20likeauth%20nullok%0aauth%09%20%20%20sufficient%20%20%20pam_fprintd.so%0aauth%20%20%20%20%20%20%20include%20%20%20%20%20%20login%0aaccount%20%20%20%20include%20%20%20%20%20%20login%0apassword%20%20%20include%20%20%20%20%20%20login%0asession%20%20%20%20include%20%20%20%20%20%20login">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>#%PAM-1.0
+
+auth 	   sufficient   pam_unix.so try_first_pass likeauth nullok
+auth	   sufficient   pam_fprintd.so
+auth       include      login
+account    include      login
+password   include      login
+session    include      login</code></pre>
+    
+</div>
+<h3 id="utilizando-com-i3lock">Utilizando com <code>i3lock</code></h3>
+<p>Para travar o meu notebook quando eu fecho a tela, eu utilizo o <a href="https://github.com/Raymo111/i3lock-color">i3lock-color</a>. Assim, para habilitar a leitura de impressão digital também no i3lock eu adicionei as mesmas linhas:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="auth%20%09%20%20%20sufficient%20%20%20pam_unix.so%20try_first_pass%20likeauth%20nullok%0aauth%09%20%20%20sufficient%20%20%20pam_fprintd.so">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>auth 	   sufficient   pam_unix.so try_first_pass likeauth nullok
+auth	   sufficient   pam_fprintd.so</code></pre>
+    
+</div>
+<p>E assim, o arquivo <code>/etc/pam.d/i3lock</code> ficou:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="#%0a#%20PAM%20configuration%20file%20for%20the%20i3lock-color%20screen%20locker.%20By%20default,%20it%20includes%0a#%20the%20%27system-local-login%27%20configuration%20file%20%28see%20/etc/pam.d/system-local-login%29%0a#%20for%20Arch%20and%20Gentoo%20and%20%27login%27%20for%20Debian.%20Note%20that%20upstream%20uses%20only%20%27login%27,%0a#%20which%20doesn%27t%20work%20on%20Arch%20and%20Gentoo.%0a#%0a%0a#auth%20include%20system-local-login%20#%20For%20Arch/Gentoo%0aauth%20%09%20sufficient%20%20%20pam_unix.so%20try_first_pass%20likeauth%20nullok%0aauth%09%20sufficient%20%20%20pam_fprintd.so%0aauth%20include%20login%20#%20For%20Debian">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>#
+# PAM configuration file for the i3lock-color screen locker. By default, it includes
+# the &#39;system-local-login&#39; configuration file (see /etc/pam.d/system-local-login)
+# for Arch and Gentoo and &#39;login&#39; for Debian. Note that upstream uses only &#39;login&#39;,
+# which doesn&#39;t work on Arch and Gentoo.
+#
+
+#auth include system-local-login # For Arch/Gentoo
+auth 	 sufficient   pam_unix.so try_first_pass likeauth nullok
+auth	 sufficient   pam_fprintd.so
+auth include login # For Debian</code></pre>
+    
+</div>
+<h3 id="para-outros-sistemas-de-login-como-o-gddm">Para outros sistemas de login como o <code>gddm</code></h3>
+<p>Ainda não testei, mas pretendo algum dia criar uma máquina virtual e ver se consigo. Isso porque passei um ano inteiro utilizando <a href="https://pop.system76.com/">Pop!_OS</a> com Gnome, e não fazia ideia de que era possível habilitar a leitura de impressão digital.</p>
+<p>Mas caso você tenha curiosidade em habilitar no seu gdm ou outro login manager, eu recomendo uma leitura na <a href="https://wiki.archlinux.org/title/fprint">ArchWiki</a></p>
+<h2 id="problemas">Problemas</h2>
+<p>Para a utilização com o comando <code>sudo</code>, a leitura de impressão digital funcional muito bem. Contudo para o <code>ly</code> e o <code>i3lock</code> eu preciso inserir uma senha errada (ou vazia) antes de eles conseguirem detectar minha impressão digital.</p>
+<p>Este não é um problema muito grave, pois é só um clique de <code>Enter</code> a mais. Mas de qualquer forma continuarei procurando alguma solução para tal problema</p>
 
             
         </div>
@@ -588,7 +760,7 @@
                 <li>
                     
                         Word Count:
-                        11
+                        504
                     
                 </li>
             
@@ -646,7 +818,7 @@
                     
                         Last modified: &nbsp;
                         <time>
-                            dez. 25 2023 00:33:06
+                            dez. 25 2023 21:27:50
                         </time>
                     
                 </li>
